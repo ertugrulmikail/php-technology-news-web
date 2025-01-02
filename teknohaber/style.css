@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Futura', sans-serif;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    scrollbar-color: #533a9e #000000 ;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #533a9e;
+}
+
+@media screen and (max-width: 768px) {
+    /* Ekran genişliği 768px'e kadar olan durumlar için stil tanımlamaları */
+}
+
+
+
+.navbar{
+    height: 7vh;
+    width: 100%;
+    background-color: #533a9e;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.haber h1 a:hover {
+    color: orange;
+    transition: color 0.3s ease-in-out;
+}
+
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.8s;
+}
+
+h2{
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+a:hover{
+color: #C83520;    
+}
+
+h2:hover{
+    color: #C83520;   
+}
+
